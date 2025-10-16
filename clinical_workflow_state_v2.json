@@ -1,0 +1,500 @@
+[
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": null,
+      "human_verification": null,
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "node_id": "GenerateAssessmentNode"
+    },
+    "start_ts": "2025-10-16T04:58:41.960249Z",
+    "duration": 10.307040371000312,
+    "status": "success",
+    "kind": "node",
+    "id": "GenerateAssessmentNode:dc2763434868489a8c89ded30e40aa55"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Atypical Chest Pain",
+        "alternative_diagnoses": [
+          "Angina Pectoris / Coronary Artery Disease",
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Anxiety/Panic Disorder"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Troponin levels",
+          "Chest X-ray",
+          "Echocardiogram",
+          "Stress Test",
+          "Upper Endoscopy"
+        ],
+        "treatment_plan": "Immediate cardiac evaluation to rule out acute coronary syndrome. Symptomatic relief for pain. Further diagnostic workup based on initial test results. Lifestyle modifications (e.g., diet, exercise, stress reduction) depending on underlying cause. Referral to appropriate specialist (e.g., Cardiology, Gastroenterology) as indicated.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": false,
+        "reviewer_notes": "Initial generation."
+      },
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "assessment": {
+        "diagnosis": "Atypical Chest Pain",
+        "alternative_diagnoses": [
+          "Angina Pectoris / Coronary Artery Disease",
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Anxiety/Panic Disorder"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Troponin levels",
+          "Chest X-ray",
+          "Echocardiogram",
+          "Stress Test",
+          "Upper Endoscopy"
+        ],
+        "treatment_plan": "Immediate cardiac evaluation to rule out acute coronary syndrome. Symptomatic relief for pain. Further diagnostic workup based on initial test results. Lifestyle modifications (e.g., diet, exercise, stress reduction) depending on underlying cause. Referral to appropriate specialist (e.g., Cardiology, Gastroenterology) as indicated.",
+        "urgency_level": "High"
+      },
+      "node_id": "HumanVerificationNode"
+    },
+    "start_ts": null,
+    "duration": null,
+    "status": "pending",
+    "kind": "node",
+    "id": "HumanVerificationNode:62dedf718f6f48c8bcb7a3622f6296ce"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Atypical Chest Pain",
+        "alternative_diagnoses": [
+          "Angina Pectoris / Coronary Artery Disease",
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Anxiety/Panic Disorder"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Troponin levels",
+          "Chest X-ray",
+          "Echocardiogram",
+          "Stress Test",
+          "Upper Endoscopy"
+        ],
+        "treatment_plan": "Immediate cardiac evaluation to rule out acute coronary syndrome. Symptomatic relief for pain. Further diagnostic workup based on initial test results. Lifestyle modifications (e.g., diet, exercise, stress reduction) depending on underlying cause. Referral to appropriate specialist (e.g., Cardiology, Gastroenterology) as indicated.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": false,
+        "reviewer_notes": "Initial generation."
+      },
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "human_feedback": "approved",
+      "node_id": "Evaluate"
+    },
+    "start_ts": "2025-10-16T04:59:31.303711Z",
+    "duration": 1.8128200740002285,
+    "status": "success",
+    "kind": "node",
+    "id": "Evaluate:cf8414d84536471fa1cd3415462bb118"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Atypical Chest Pain",
+        "alternative_diagnoses": [
+          "Angina Pectoris / Coronary Artery Disease",
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Anxiety/Panic Disorder"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Troponin levels",
+          "Chest X-ray",
+          "Echocardiogram",
+          "Stress Test",
+          "Upper Endoscopy"
+        ],
+        "treatment_plan": "Immediate cardiac evaluation to rule out acute coronary syndrome. Symptomatic relief for pain. Further diagnostic workup based on initial test results. Lifestyle modifications (e.g., diet, exercise, stress reduction) depending on underlying cause. Referral to appropriate specialist (e.g., Cardiology, Gastroenterology) as indicated.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": true,
+        "reviewer_notes": "Assessment approved by clinician"
+      },
+      "final_report": {
+        "patient_info": {
+          "name": "John Doe",
+          "age": 45,
+          "gender": "Male",
+          "chief_complaint": "Chest pain",
+          "vital_signs": {
+            "BP": "120/80",
+            "HR": "72"
+          },
+          "medical_history": [
+            "Hypertension",
+            "Diabetes"
+          ],
+          "allergies": [
+            "Penicillin"
+          ]
+        },
+        "clinical_assessment": {
+          "diagnosis": "Atypical Chest Pain",
+          "alternative_diagnoses": [
+            "Angina Pectoris / Coronary Artery Disease",
+            "Gastroesophageal Reflux Disease (GERD)",
+            "Musculoskeletal Chest Pain",
+            "Anxiety/Panic Disorder"
+          ],
+          "recommended_tests": [
+            "Electrocardiogram (ECG)",
+            "Cardiac Troponin levels",
+            "Chest X-ray",
+            "Echocardiogram",
+            "Stress Test",
+            "Upper Endoscopy"
+          ],
+          "treatment_plan": "Immediate cardiac evaluation to rule out acute coronary syndrome. Symptomatic relief for pain. Further diagnostic workup based on initial test results. Lifestyle modifications (e.g., diet, exercise, stress reduction) depending on underlying cause. Referral to appropriate specialist (e.g., Cardiology, Gastroenterology) as indicated.",
+          "urgency_level": "High"
+        }
+      },
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "result": {
+      "data": null
+    },
+    "ts": "2025-10-16T04:59:33.128654Z",
+    "kind": "end",
+    "id": "end:96b1613540794de5b1a3f546af7e0fca"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": null,
+      "human_verification": null,
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "node_id": "GenerateAssessmentNode"
+    },
+    "start_ts": "2025-10-16T04:59:44.807193Z",
+    "duration": 7.225814792000165,
+    "status": "success",
+    "kind": "node",
+    "id": "GenerateAssessmentNode:2a5719d7f04940c1b8249a641f2516f0"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Angina Pectoris (Rule out Acute Coronary Syndrome)",
+        "alternative_diagnoses": [
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Pericarditis",
+          "Anxiety/Panic Attack"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Enzymes (Troponin)",
+          "Chest X-ray",
+          "Echocardiogram"
+        ],
+        "treatment_plan": "Immediate cardiac workup to rule out acute coronary syndrome, including pain management. Further treatment will depend on the definitive diagnosis. Lifestyle modifications and risk factor management if cardiac etiology is confirmed.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": false,
+        "reviewer_notes": "Initial generation."
+      },
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "assessment": {
+        "diagnosis": "Angina Pectoris (Rule out Acute Coronary Syndrome)",
+        "alternative_diagnoses": [
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Pericarditis",
+          "Anxiety/Panic Attack"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Enzymes (Troponin)",
+          "Chest X-ray",
+          "Echocardiogram"
+        ],
+        "treatment_plan": "Immediate cardiac workup to rule out acute coronary syndrome, including pain management. Further treatment will depend on the definitive diagnosis. Lifestyle modifications and risk factor management if cardiac etiology is confirmed.",
+        "urgency_level": "High"
+      },
+      "node_id": "HumanVerificationNode"
+    },
+    "start_ts": null,
+    "duration": null,
+    "status": "pending",
+    "kind": "node",
+    "id": "HumanVerificationNode:e3dee46b31fc4137a587a3049d8e3b37"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Angina Pectoris (Rule out Acute Coronary Syndrome)",
+        "alternative_diagnoses": [
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Pericarditis",
+          "Anxiety/Panic Attack"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Enzymes (Troponin)",
+          "Chest X-ray",
+          "Echocardiogram"
+        ],
+        "treatment_plan": "Immediate cardiac workup to rule out acute coronary syndrome, including pain management. Further treatment will depend on the definitive diagnosis. Lifestyle modifications and risk factor management if cardiac etiology is confirmed.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": false,
+        "reviewer_notes": "Initial generation."
+      },
+      "final_report": null,
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "node": {
+      "human_feedback": "approved",
+      "node_id": "Evaluate"
+    },
+    "start_ts": "2025-10-16T04:59:58.621061Z",
+    "duration": 1.9960818600002312,
+    "status": "success",
+    "kind": "node",
+    "id": "Evaluate:072126326f4445e18dfd3b137b89703b"
+  },
+  {
+    "state": {
+      "patient_info": {
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "chief_complaint": "Chest pain",
+        "vital_signs": {
+          "BP": "120/80",
+          "HR": "72"
+        },
+        "medical_history": [
+          "Hypertension",
+          "Diabetes"
+        ],
+        "allergies": [
+          "Penicillin"
+        ]
+      },
+      "clinical_assessment": {
+        "diagnosis": "Angina Pectoris (Rule out Acute Coronary Syndrome)",
+        "alternative_diagnoses": [
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Musculoskeletal Chest Pain",
+          "Pericarditis",
+          "Anxiety/Panic Attack"
+        ],
+        "recommended_tests": [
+          "Electrocardiogram (ECG)",
+          "Cardiac Enzymes (Troponin)",
+          "Chest X-ray",
+          "Echocardiogram"
+        ],
+        "treatment_plan": "Immediate cardiac workup to rule out acute coronary syndrome, including pain management. Further treatment will depend on the definitive diagnosis. Lifestyle modifications and risk factor management if cardiac etiology is confirmed.",
+        "urgency_level": "High"
+      },
+      "human_verification": {
+        "verified": true,
+        "reviewer_notes": "Approved by clinician"
+      },
+      "final_report": {
+        "patient_info": {
+          "name": "John Doe",
+          "age": 45,
+          "gender": "Male",
+          "chief_complaint": "Chest pain",
+          "vital_signs": {
+            "BP": "120/80",
+            "HR": "72"
+          },
+          "medical_history": [
+            "Hypertension",
+            "Diabetes"
+          ],
+          "allergies": [
+            "Penicillin"
+          ]
+        },
+        "clinical_assessment": {
+          "diagnosis": "Angina Pectoris (Rule out Acute Coronary Syndrome)",
+          "alternative_diagnoses": [
+            "Gastroesophageal Reflux Disease (GERD)",
+            "Musculoskeletal Chest Pain",
+            "Pericarditis",
+            "Anxiety/Panic Attack"
+          ],
+          "recommended_tests": [
+            "Electrocardiogram (ECG)",
+            "Cardiac Enzymes (Troponin)",
+            "Chest X-ray",
+            "Echocardiogram"
+          ],
+          "treatment_plan": "Immediate cardiac workup to rule out acute coronary syndrome, including pain management. Further treatment will depend on the definitive diagnosis. Lifestyle modifications and risk factor management if cardiac etiology is confirmed.",
+          "urgency_level": "High"
+        }
+      },
+      "revision_count": 0,
+      "max_revisions": 3
+    },
+    "result": {
+      "data": null
+    },
+    "ts": "2025-10-16T05:00:00.623675Z",
+    "kind": "end",
+    "id": "end:636c5399ff7743e6a5e0f709ec94108e"
+  }
+]
